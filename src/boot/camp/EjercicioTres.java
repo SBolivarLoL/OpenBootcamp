@@ -4,7 +4,7 @@ public class EjercicioTres {
 
     public static void main(String[] args) {
 
-        String[] testos = {"la", "mamá", "de", "la", "mamá"};
+        String[] testos = new String[]{"la", "mamá", "de", "la", "mamá"};
         String result = concatenar(testos);
         System.out.println(result);
     }
